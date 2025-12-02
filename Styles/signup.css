@@ -1,0 +1,25 @@
+main {
+    padding: 10px;
+    border: 10px ridge #656D4A;
+    background-color: #656d4ac0;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+    line-height: 30px;
+
+    /* Puts container in middle of screen */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="submit"]:hover{
+    background-color: #582F0E;
+    color: white;
+    cursor: pointer;
+}
+
+body{
+    background-color: #c2c5aa5e;
+}
