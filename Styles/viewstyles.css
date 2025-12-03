@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* BASE CSS */
+
+nav {
+    background-color: #C2C5AA;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+#imglogo {
+    display: flex;
+    height: 82px;
+    width: 40px;
+}
+
+/* Nav Bar */
