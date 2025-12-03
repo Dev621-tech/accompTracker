@@ -47,7 +47,8 @@ nav ul {
 
 aside {
     max-width: 25%;
-    background-color: blueviolet;
+    background-image: linear-gradient(#333d298e, #582f0e92);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.962);
     justify-content: center;
     text-align: center;
 }
